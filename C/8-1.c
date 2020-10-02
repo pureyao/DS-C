@@ -1,3 +1,4 @@
+//数组遍历
 #include<stdio.h>
 int main(){
     int i,a[10];

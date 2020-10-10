@@ -1,15 +1,14 @@
-//栈的顺序存储
-/* 
+/* 栈的顺序存储
 初始化栈——initStack(sqStack *S)
 销毁栈——destroyStack(sqStack *S)
+清空栈——clearStack(sqStack *S)
 判断是否为空——isEmpty(sqStack S)
-入栈(压栈)——pop(sqStack *S,SElemType *e)
-出栈——push(sqStack *S,SElemType e)
+入栈(压栈)——pop(sqStack *S,SElemType e)
+出栈——push(sqStack *S,SElemType *e)
 获取栈顶——getTop(sqStack S,SElemType *e)
 获取栈长——getLength(SqStack S)
 访问元素——visit(SElemType e)
 遍历栈——traverseStack(sqStack S,void (*visit)(SElemType))
-
  */
 #include<stdio.h>
 #include<stdlib.h>
@@ -181,6 +180,5 @@ int main(){
         if (destroyStack(&S)){
             printf("destroy_success\n");
         }
-        
     }   
 }

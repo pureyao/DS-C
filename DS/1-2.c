@@ -1,5 +1,4 @@
-/* 
-链式结构——单链表
+/* 链式结构——单链表
 初始化线性表——initList(LinkList *L)
 销毁线性表——destroyList(LinkList *L)
 判断是否为空——isEmpty(LinkList L)
